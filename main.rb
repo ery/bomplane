@@ -2,12 +2,13 @@
 system "clear"
 
 def new_page(second = 1)
-  puts "                    炸飞机                   "
   second.times do |i|
     sleep 1
     print '.'
   end
   system "clear"
+  
+  puts "                    炸飞机                   "
 end
 
 new_page 5
