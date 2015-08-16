@@ -3,8 +3,8 @@ system "clear"
 
 def new_page(second = 5)
   second.times do |i|
-    print '.'
     sleep 1
+    print '.'
   end
   system "clear"
 end
@@ -34,7 +34,7 @@ print "---|---|---|---|---|---|---|---|---|---|---|\r\n"
 print "10 |   |   |   |   |   |   |   |   |   |   |\r\n"
 print "---|----------------------------------------\r\n"
 
-new_page
+new_page 3
 
 print "     A   B   C   E   F   G   H   I   J   K  \r\n"
 print "                                            \r\n"
@@ -59,7 +59,7 @@ print "                                            \r\n"
 print "10                                          \r\n"
 print "                                            \r\n"
 
-new_page
+new_page 3
 
 print "     A   B   C   E   F   G   H   I   J   K  \r\n"
 print "                                            \r\n" 
@@ -84,7 +84,7 @@ print "                                            \r\n"
 print "10                                          \r\n"
 print "                                            \r\n"
 
-new_page
+new_page 3
 
 print "   | A   B   C   E   F   G   H   I   J   K  \r\n"
 print "---|----------------------------------------\r\n" 
