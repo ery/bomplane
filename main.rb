@@ -4,7 +4,7 @@ def new_page
     print '.'
     sleep 1
   end
-  `clear`
+  systmen "clear"
 end
 
 print "     A   B   C   E   F   G   H   I   J   K  \r\n"
