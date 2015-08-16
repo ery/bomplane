@@ -65,7 +65,7 @@ print " 1                                          \r\n"
 print "                                            \r\n"
 print " 2              |||                         \r\n"
 print "                                            \r\n"
-print " 3       =   =  |||  =   X                  \r\n"
+print " 3       =   =  |||  =   =                  \r\n"
 print "                                            \r\n"
 print " 4              |||                         \r\n"
 print "                                            \r\n"
@@ -108,3 +108,4 @@ print "10 |                                       \r\n"
 print "   |                                       \r\n"
 
 new_page
+
