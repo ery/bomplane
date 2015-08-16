@@ -238,8 +238,7 @@ puts " 3 |     X   X   X   X   X                  "
 puts "   |                                        "
 puts " 4 |             X                          "
 puts "   |                                        "
-puts " 5 |         X   X   X
-                      "
+puts " 5 |         X   X   X                      "
 puts "   |                                        "
 puts " 6 |                                        "
 puts "   |                                        "
@@ -253,8 +252,12 @@ puts "10 |                                        "
 puts "   |                                        "
 
 new_page
-puts "按回车 开始游戏"
+puts "按回车键 开始游戏"
 gets
+
+new_page
+
+
 
 
 
