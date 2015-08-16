@@ -1,4 +1,11 @@
 
+def new_page
+  5.times do |i|
+    print '.'
+    sleep 1
+  end
+  `clear`
+end
 
 print "     A   B   C   E   F   G   H   I   J   K  \r\n"
 print "---|---|---|---|---|---|---|---|---|---|---|\r\n"
@@ -23,9 +30,7 @@ print "---|---|---|---|---|---|---|---|---|---|---|\r\n"
 print "10 |   |   |   |   |   |   |   |   |   |   |\r\n"
 print "---|----------------------------------------\r\n"
 
-
-
-
+new_page
 
 print "     A   B   C   E   F   G   H   I   J   K  \r\n"
 print "                                            \r\n"
@@ -50,9 +55,7 @@ print "                                            \r\n"
 print "10                                          \r\n"
 print "                                            \r\n"
 
-
-
-
+new_page
 
 print "     A   B   C   E   F   G   H   I   J   K  \r\n"
 print "                                            \r\n" 
@@ -77,7 +80,7 @@ print "                                            \r\n"
 print "10                                          \r\n"
 print "                                            \r\n"
 
-
+new_page
 
 print "   | A   B   C   E   F   G   H   I   J   K  \r\n"
 print "---|----------------------------------------\r\n" 
@@ -102,3 +105,4 @@ print "   |                                       \r\n"
 print "10 |                                       \r\n"
 print "   |                                       \r\n"
 
+new_page
