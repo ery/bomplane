@@ -1,4 +1,6 @@
 
+system "clear"
+
 def new_page
   5.times do |i|
     print '.'
