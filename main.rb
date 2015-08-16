@@ -253,7 +253,7 @@ puts "10 |                                        "
 puts "   |                                        "
 
 new_page
-puts "       按回车 开始游戏"
+puts "按回车 开始游戏"
 gets
 
 
