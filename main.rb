@@ -290,5 +290,7 @@ new_page 1
 puts "炸飞机"
 puts "开始游戏"
 
+get
+
 
 
