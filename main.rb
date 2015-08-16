@@ -2,15 +2,15 @@
 system "clear"
 
 def new_page(second = 1)
+  puts "                    炸飞机                   "
   second.times do |i|
     sleep 1
-    puts '.'
+    print '.'
   end
   system "clear"
 end
 
 new_page 5
-puts "                    炸飞机                   "
 puts "   | A   B   C   E   F   G   H   I   J   K  "
 puts "---|----------------------------------------" 
 puts " 1 |                                        "
@@ -35,7 +35,6 @@ puts "10 |                                        "
 puts "   |                                        "
 
 new_page
-puts "                    炸飞机                   "
 puts "   | A   B   C   E   F   G   H   I   J   K  "
 puts "---|----------------------------------------" 
 puts " 1 |                                        "
@@ -60,7 +59,6 @@ puts "10 |                                        "
 puts "   |                                        "
 
 new_page
-puts "                    炸飞机                   "
 puts "   | A   B   C   E   F   G   H   I   J   K  "
 puts "---|----------------------------------------" 
 puts " 1 |                                        "
@@ -85,7 +83,6 @@ puts "10 |                                        "
 puts "   |                                        "
 
 new_page
-puts "                    炸飞机                   "
 puts "   | A   B   C   E   F   G   H   I   J   K  "
 puts "---|----------------------------------------" 
 puts " 1 |                                        "
@@ -110,7 +107,6 @@ puts "10 |                                        "
 puts "   |                                        "
 
 new_page
-puts "                    炸飞机                   "
 puts "   | A   B   C   E   F   G   H   I   J   K  "
 puts "---|----------------------------------------" 
 puts " 1 |                                        "
@@ -135,7 +131,6 @@ puts "10 |                                        "
 puts "   |                                        "
 
 new_page
-puts "                    炸飞机                   "
 puts "   | A   B   C   E   F   G   H   I   J   K  "
 puts "---|----------------------------------------" 
 puts " 1 |                                        "
@@ -160,7 +155,6 @@ puts "10 |                                        "
 puts "   |                                        "
 
 new_page
-puts "                    炸飞机                   "
 puts "   | A   B   C   E   F   G   H   I   J   K  "
 puts "---|----------------------------------------" 
 puts " 1 |                                        "
@@ -185,7 +179,6 @@ puts "10 |                                        "
 puts "   |                                        "
 
 new_page
-puts "                    炸飞机                   "
 puts "   | A   B   C   E   F   G   H   I   J   K  "
 puts "---|----------------------------------------" 
 puts " 1 |                                        "
@@ -210,7 +203,6 @@ puts "10 |                                        "
 puts "   |                                        "
 
 new_page
-puts "                    炸飞机                   "
 puts "   | A   B   C   E   F   G   H   I   J   K  "
 puts "---|----------------------------------------" 
 puts " 1 |                                        "
@@ -235,7 +227,6 @@ puts "10 |                                        "
 puts "   |                                        "
 
 new_page
-puts "                    炸飞机                   "
 puts "   | A   B   C   E   F   G   H   I   J   K  "
 puts "---|----------------------------------------" 
 puts " 1 |                                        "
@@ -260,7 +251,6 @@ puts "10 |                                        "
 puts "   |                                        "
 
 new_page
-puts "                    炸飞机                   "
 puts "   | A   B   C   E   F   G   H   I   J   K  "
 puts "---|----------------------------------------" 
 puts " 1 |                                        "
@@ -284,7 +274,7 @@ puts "   |                                        "
 puts "10 |                                        "
 puts "   |                                        "
 
-puts "炸飞机"
+new_page
 puts "输入回车 开始游戏"
 gets
 
