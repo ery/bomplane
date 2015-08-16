@@ -256,7 +256,8 @@ puts "按回车键 开始游戏"
 gets
 
 new_page
-
+puts "输入 你的飞机坐标（比如 F5）"
+gets
 
 
 
