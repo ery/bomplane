@@ -4,8 +4,10 @@ def new_page
     print '.'
     sleep 1
   end
-  systmen "clear"
+  system "clear"
 end
+
+new_page
 
 print "     A   B   C   E   F   G   H   I   J   K  \r\n"
 print "---|---|---|---|---|---|---|---|---|---|---|\r\n"
