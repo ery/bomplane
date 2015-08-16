@@ -1,2 +1,2 @@
 
-print "ABCEFGHIJKLMN"
+print "ABCEFGHIJK\r\n"
